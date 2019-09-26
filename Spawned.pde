@@ -19,7 +19,7 @@ void initPermPlants() {
 
   // middle
   permPlants.add(new Clasping(getSpawnedXY(35, 0), 1.0, false));
-  permPlants.add(new Lizard(getSpawnedXY(36, 3), 1.0, false));
+  permPlants.add(new Beauty(getSpawnedXY(36, 3), 1.0, false));
   permPlants.add(new Lizard(getSpawnedXY(37, 0), 1.0, false));
 
   permPlants.add(new Lizard(getSpawnedXY(55, 2), 1.0, false));
@@ -28,16 +28,16 @@ void initPermPlants() {
   // right side plants
   permPlants.add(new Lizard(getSpawnedXY(77, 0), 1.0, false));
   permPlants.add(new Lizard(getSpawnedXY(85, 0), 1.0, false));
-  permPlants.add(new Lizard(getSpawnedXY(87, 0), 1.0, false));
+  permPlants.add(new Beauty(getSpawnedXY(87, 0), 1.0, false));
   permPlants.add(new Lizard(getSpawnedXY(90, 0), 1.0, false));
-  permPlants.add(new Lizard(getSpawnedXY(92, -10), 1.0, false));
+  permPlants.add(new Beauty(getSpawnedXY(92, -10), 1.0, false));
   permPlants.add(new Lizard(getSpawnedXY(93, 0), 1.0, false));
-  permPlants.add(new Lizard(getSpawnedXY(95, -20), 1.0, false));
-  permPlants.add(new Lizard(getSpawnedXY(97, -5), 1.0, false));
-  permPlants.add(new Lizard(getSpawnedXY(98, -22), 1.0, false));
-  permPlants.add(new Lizard(getSpawnedXY(100, -12), 1.0, false));
+  permPlants.add(new Stokes(getSpawnedXY(95, -20), 1.0, false));
+  permPlants.add(new Clasping(getSpawnedXY(97, -5), 1.0, false));
+  permPlants.add(new Stokes(getSpawnedXY(98, -22), 1.0, false));
+  permPlants.add(new Obedient(getSpawnedXY(100, -12), 1.0, false));
   permPlants.add(new Lizard(getSpawnedXY(101, -32), 1.0, false));
-  permPlants.add(new Lizard(getSpawnedXY(102, -22), 1.0, false));
+  permPlants.add(new Obedient(getSpawnedXY(102, -22), 1.0, false));
   permPlants.add(new Lizard(getSpawnedXY(103, -12), 1.0, false));
 
   // left side plants
@@ -63,8 +63,8 @@ void initPermPlants() {
   permPlants.add(new Beauty(getSpawnedXY(-1, -35), 1.0, false));
   permPlants.add(new Beauty(getSpawnedXY(0, -30), 1.0, false));
    permPlants.add(new Lizard(getSpawnedXY(1, -30), 1.0, false));
-   permPlants.add(new Beauty(getSpawnedXY(3, -30), 1.0, false));
-  permPlants.add(new Lizard(getSpawnedXY(2, -20), 1.0, false));
+   permPlants.add(new Clasping(getSpawnedXY(3, -30), 1.0, false));
+  permPlants.add(new Clasping(getSpawnedXY(2, -20), 1.0, false));
   permPlants.add(new Lizard(getSpawnedXY(3, 0), 1.0, false));
    permPlants.add(new Beauty(getSpawnedXY(4, -35), 1.0, false));
   permPlants.add(new Lizard(getSpawnedXY(5, -15), 1.0, false));
@@ -72,7 +72,7 @@ void initPermPlants() {
   permPlants.add(new Stokes(getSpawnedXY(6, -5), 1.0, false));
   permPlants.add(new Stokes(getSpawnedXY(7, -5), 1.0, false));
   permPlants.add(new Lizard(getSpawnedXY(8, -30), 1.0, false));
-  permPlants.add(new Lizard(getSpawnedXY(10, -10), 1.0, false));
+  permPlants.add(new Beauty(getSpawnedXY(10, -10), 1.0, false));
 
   permPlants.add(new Obedient(getSpawnedXY(21, -2), 1.0, false));
   permPlants.add(new Lizard(getSpawnedXY(20, 0), 1.0, false));
